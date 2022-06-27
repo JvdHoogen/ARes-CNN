@@ -10,3 +10,11 @@ For any questions, please feel free to contact me.
 
 ### How to use
 This repository contains a folder named "model". In this folder you will find one file. The file contains the full code for the ARes-CNN model for our experiments. Preprocessing the data into sequences and a train and test set is necessary before utilizing the models. Please contact me for any questions regarding the preprocessing scheme.  
+
+
+### Requirements
+Usage of our code requires many packages to be installed on your machine. The most important packages are listed below:
+* Numpy
+* Tensorflow
+* Keras
+* Pandas
