@@ -18,3 +18,4 @@ Usage of our code requires many packages to be installed on your machine. The mo
 * Tensorflow
 * Keras
 * Pandas
+* Sklearn
