@@ -214,7 +214,7 @@ import tensorflow as tf
 
 import sys
 #network_choice = str(sys.argv[1])
-network_choice = network_2
+network_choice = 'network_2'
 #%%
 def main():
 
