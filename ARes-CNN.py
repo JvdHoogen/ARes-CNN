@@ -213,7 +213,8 @@ import tensorflow as tf
 
 
 import sys
-network_choice = str(sys.argv[1])
+#network_choice = str(sys.argv[1])
+network_choice = network_2
 #%%
 def main():
 
@@ -232,7 +233,8 @@ def main():
         
 
     import random
-    random_state_here = int(sys.argv[2])
+    #random_state_here = int(sys.argv[2])
+    random_state_here = 5
     train_inputs, test_inputs, train_graphfeature, test_graphfeature, train_targets, testTargets = train_test_split(inputs, graph_features, targets, test_size=test_set_size, random_state=random_state_here)
     testInputs, testMaxes = normalize(test_inputs[:, :, :1000, :])       
 
